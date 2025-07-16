@@ -21,35 +21,31 @@ class Q9 {
 
             int grade;
             if (total >= 95) {
-            grade = 1;
+                       grade = 1;
             } else if (total >= 80) {
-            grade = 2;
+                       grade = 2;
             } else if (total >= 70) {
-            grade = 3;
-            } else if (total >= 60) {
-            grade = 4;
+                       grade = 3;
             } else {
-            grade = 5;
-            }
+                       grade = 4;
+            } 
 
             switch (grade) {
             case 1:
-                System.out.println("first class with distinction");
-                break;
+            System.out.println("first class with distinction");
+            break;
             case 2:
-                System.out.println("first class");
-                break;
+            System.out.println("first class");
+            break;
             case 3:
-                System.out.println("second class");
-                break;
+            System.out.println("second class");
+            break;
             case 4:
-                System.out.println("pass class");
-                break;
-            default:
-                System.out.println("You failed the exam");
-            }
+            System.out.println("You failed the exam");
+            break;
+        } 
         } else {
-            System.out.println("You failed in one or more subjects.");
+            System.out.println("You failed the exam.");
         }
         
     }
